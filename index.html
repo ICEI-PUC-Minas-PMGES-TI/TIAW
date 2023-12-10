@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>PUCONNECT</title>
+</head>
+<body>
+  <!-- CABEÇALHO -->
+  <header>
+    <a href="index.html"><img src="assets/img/puconnectlogo.png" alt="puconnect logo" class="logo"></a>
+</header>
+
+<!-- MENU LATERAL -->
+<menu>
+  <section class="menulateral">
+    <div id="conversas">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar" onkeydown="checkEnter(event)">
+        <a onclick="searchNames()"><img src="assets/img/enviar.png" class="btn enviar" alt=""></a>
+    </div>
+
+    <ul id="nameList">
+        
+    </ul>
+    </div>
+    <hr class="border border-1 opacity-100">
+    <div id="opcoes">
+      <div class="d-grid gap-2">
+
+        <a href="assets/Cadastro/cadastro.html" class="btn btn-light text-start" type="button">
+          <span class="opcoesBtn fs-4"><img src="assets/img/search.png" alt="">Cadastro</span>
+        </a>
+
+        <a href="assets/Lista/lista.html" class="btn btn-light text-start" type="button">
+          <span class="opcoesBtn fs-4"><img src="assets/img/lista.png" alt="">Lista de Cadastros</span>
+        </a>
+
+        <a href="assets/Novo Grupo/debora1.html" class="btn btn-light text-start" type="button">
+          <span class="opcoesBtn fs-4"><img src="assets/img/mais.png" alt="">Novo Grupo</span>
+        </a>
+
+
+      </div>
+    </div>
+  </section>
+</menu>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <section id="content">
+      <div class="content">
+          <h1>Seja Bem Vindo! Comece por Cadastro.</h1>
+      </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

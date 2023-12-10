@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="rafael.css">
+    <title>PUCONNECT</title>
+</head>
+<body>
+  <!-- CABEÇALHO -->
+  <header>
+    <a href="../../index.html"><img src="../img/puconnectlogo.png" alt="puconnect logo" class="logo"></a>
+</header>
+
+<!-- MENU LATERAL -->
+<menu>
+  <section class="menulateral">
+    <div id="conversas">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar" onkeydown="checkEnter(event)">
+        <a onclick="searchNames()"><img src="../img/enviar.png" class="btn enviar" alt=""></a>
+    </div>
+
+    <ul id="nameList">
+
+    </ul>
+    </div>
+    <hr class="border border-1 opacity-100">
+    <div id="opcoes">
+      <div class="d-grid gap-2">
+
+            <a href="../Cadastro/cadastro.html" class="btn btn-light text-start" type="button">
+              <span class="opcoesBtn fs-4"><img src="../img/search.png" alt="">Cadastro</span>
+            </a>
+    
+            <a href="../Lista/lista.html" class="btn btn-light text-start" type="button">
+              <span class="opcoesBtn fs-4"><img src="../img/lista.png" alt="">Lista de Cadastros</span>
+            </a>
+    
+            <a href="../Novo Grupo/debora1.html" class="btn btn-light text-start" type="button">
+              <span class="opcoesBtn fs-4"><img src="../img/mais.png" alt="">Novo Grupo</span>
+            </a>
+
+      </div>
+    </div>
+  </section>
+</menu>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <section id="content">
+      <div class="content">
+        <div class="titulo">
+          <p>Escolha até três temas para uma nova conversa:</p>
+        </div>
+
+        <div class="flags row">
+          <button class="btn btn-secondary" id="button1" data-tema="Esportes">Esportes</button>
+          <button class="btn btn-secondary" id="button2" data-tema="Redes Sociais" >Redes Sociais</button>
+          <button class="btn btn-secondary" id="button3" data-tema="Viagens">Viagens</button>
+          <button class="btn btn-secondary" id="button4" data-tema="Filmes e Séries">Filmes e Séries</button>
+          <button class="btn btn-secondary" id="button5" data-tema="Música">Música</button>
+          <button class="btn btn-secondary" id="button6" data-tema="Comida">Comida</button>
+          <button class="btn btn-secondary" id="button7" data-tema="Hobbies e Passatempos">Hobbies e Passatempos</button>
+          <button class="btn btn-secondary" id="button8" data-tema="Jogos de Videogame">Jogos de Videogame</button>
+          <button class="btn btn-secondary" id="button9" data-tema="Livros">Livros</button>
+          <button class="btn btn-secondary" id="button10" data-tema="Moda">Moda</button>
+          <button class="btn btn-secondary" id="button11" data-tema="Animais">Animais</button>
+          <button class="btn btn-secondary" id="button12" data-tema="Carros">Carros</button>
+          <button class="btn btn-secondary" id="button13" data-tema="Cultura Pop">Cultura Pop</button>
+          <button class="btn btn-secondary" id="button14" data-tema="Memes e Internet">Memes e Internet</button>
+          <button class="btn btn-secondary" id="button15" data-tema="Festas e Eventos">Festas e Eventos</button>
+          <button class="btn btn-secondary" id="button16" data-tema="Vida Noturna e Entretenimento">Vida Noturna e Entretenimento</button>
+        </div> 
+
+        <div class="salvar">
+          <p id="resultado"></p>
+          <a href="../Cadastro/cadastro.html" class="btn btn-success" id="salvar">Salvar</a>
+        </div>
+      </div>
+  </section>
+    <script src="rafael.js"></script>
+</body>
+</html>

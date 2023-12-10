@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+}
+
+/* INÍCIO HEADER */
+header {
+    background-color: black;
+    height: 10vh;
+    width: 22%; 
+    position: sticky;
+    top: 0;
+    text-align: start;
+}
+
+.logo {
+    width: 75px;
+    max-height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px;
+    margin: 2%;
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* TÉRMINO HEADER */
+
+.border{
+    border-color: #343434 !important;
+    margin: 0px 3% 0px;
+}
+
+/* INÍCIO MENU LATERAL */
+menu{
+    display: flex;
+    background-color: #F0DE60;
+    height: 90vh;
+    width: 22%;
+    margin: 0px;
+    position: absolute;
+    position: relative;
+    bottom: 0px;
+    padding: 0px;
+}
+.menulateral{
+    height: 100%;
+    width: 100%;
+}
+#conversas{
+    height: 60%;
+}
+#opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    height: 38.8%;
+}
+menu .btn{
+    width: 100%;
+    margin: 2% 0%;
+    border-color: black;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #F0DE60;
+}
+.opcoesBtn{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span img{
+    height: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+/* TÉRMINO MENU LATERAL */
+
+/* INÍCIO CONTEÚDO */
+#content{
+    display: inline-block;
+    background-color: #BDBCB5;
+    height: 100vh;
+    width: 78%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.content{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    height: 96.9%;
+    margin: 1.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* TÉRMINO CONTEÚDO */
+
+/* INÍCIO FUNCIONALIDADE PESQUISAR*/
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#conversas{
+    padding: 30px;
+}
+
+.enviar{
+    height: 35px;
+    border: none;
+    box-shadow: none !important;
+}
+
+#nameList{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+/* TÉRMINO FUNCIONALIDADE PESQUISAR*/
